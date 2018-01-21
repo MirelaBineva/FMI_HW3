@@ -24,7 +24,19 @@ int main()
     }
     print(str);
 
-
+    /* int el[256] = {0, };
+    cin.getline(str, SIZE);
+    for (int i=0; str[i]!='\0'; i++)
+    {
+        el[(int)str[i]]++;
+    }
+    for (int i=0; i<256; i++)
+    {
+        if(el[i]>0)
+        cout << "character asci code: " << i << " : " << el[i] << endl;
+    }
+    cout << endl;
+    */
 
     return 0;
 }
